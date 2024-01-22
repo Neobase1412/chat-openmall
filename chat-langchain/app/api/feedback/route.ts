@@ -6,8 +6,6 @@ import { Client } from "langsmith";
 
 export const runtime = "edge";
 
-export const dynamic = "force-dynamic";
-
 const client = new Client();
 
 export async function POST(req: NextRequest) {

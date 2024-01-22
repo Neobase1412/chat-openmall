@@ -6,8 +6,6 @@ import { Client } from "langsmith";
 
 export const runtime = "edge";
 
-export const dynamic = "force-dynamic";
-
 const client = new Client();
 
 const pollForRun = async (runId: string, retryCount = 0): Promise<string> => {

@@ -1,1 +1,1 @@
-WEAVIATE_DOCS_INDEX_NAME = "OpenMall_Docs"
+WEAVIATE_DOCS_INDEX_NAME = "Neobase_Docs"

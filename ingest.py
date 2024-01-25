@@ -35,7 +35,7 @@ def metadata_extractor(meta: dict, soup: BeautifulSoup) -> dict:
     }
 
 def load_gitbook_docs():
-    loader = GitbookLoader("https://neobase-2.gitbook.io/openmall/", load_all_paths=True)
+    loader = GitbookLoader("https://neobase-2.gitbook.io/partnerai-internal-documents/", load_all_paths=True)
     return loader.load()
 
 def ingest_docs():

@@ -25,9 +25,12 @@ export function EmptyState(props: { onChoice: (question: string) => any }) {
         marginTop={"10px"}
         textAlign={"center"}
       >
-        Ask me anything about LangChain&apos;s{" "}
-        <Link href="https://python.langchain.com/" color={"blue.200"}>
-          Python documentation!
+        Ask me anything about{" "}
+        <Link
+          href="https://neobase-2.gitbook.io/partnerai-internal-documents/"
+          color={"blue.200"}
+        >
+          Neobase documentation!
         </Link>
       </Heading>
       <Flex marginTop={"25px"} grow={1} maxWidth={"800px"} width={"100%"}>

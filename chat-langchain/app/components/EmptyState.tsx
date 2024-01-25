@@ -15,7 +15,7 @@ export function EmptyState(props: { onChoice: (question: string) => any }) {
   return (
     <div className="rounded flex flex-col items-center max-w-full md:p-8">
       <Heading fontSize="3xl" fontWeight={"medium"} mb={1} color={"white"}>
-        Chat LangChain 🦜🔗
+        Chat Neobase 🔗
       </Heading>
       <Heading
         fontSize="xl"
